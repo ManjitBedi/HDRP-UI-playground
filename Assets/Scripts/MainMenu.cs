@@ -36,8 +36,8 @@ public class MainMenu : MonoBehaviour
         Button loadScene2Button = root.Q<Button>("ButtonLoadScene2");
 
         infoButton.clicked += () => DisplayInfo();
-        loadScene1Button.clicked += () => SceneManager.LoadScene("OutdoorScene");
-        loadScene2Button.clicked += () => SceneManager.LoadScene("OutdoorScene");
+        loadScene1Button.clicked += () => SceneManager.LoadScene("OutdoorsScene");
+        loadScene2Button.clicked += () => SceneManager.LoadScene("IndoorsScene");
     }
 
     private void DisplayInfo()
